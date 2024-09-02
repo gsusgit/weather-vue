@@ -54,9 +54,11 @@ body {
   font-weight: 400;
   font-size: 1.8rem;
 }
+.formulario option {
+  color: #333;
+}
 .formulario input[type="submit"] {
   background-color: var(--primary);
-  border: none;
   color: var(--blanco);
   font-weight: 700;
   font-size: 1.4rem;
@@ -64,6 +66,13 @@ body {
   cursor: pointer;
   padding: 1rem;
   margin-top: 2rem;
+  border-radius: 1rem;
+  border: .3rem solid var(--primary);
+}
+.formulario input[type="submit"]:hover   {
+  background-color: #c78b0a;
+  border-color: #c78b0a;
+  transition: 300ms all;
 }
 .campo ::placeholder {
   color: var(--blanco);
@@ -75,6 +84,14 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   color: #2b353b;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cargando {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 1rem;
   text-align: center;
   margin-top: 2rem;
 }
