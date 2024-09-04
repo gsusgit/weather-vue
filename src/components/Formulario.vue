@@ -16,8 +16,8 @@
   ])
 
   const formulario = reactive({
-    ciudad: 'Córdoba',
-    pais: 'ES'
+    ciudad: '',
+    pais: ''
   })
 
   const error = ref('')

@@ -8,7 +8,6 @@ export default function useClima() {
     const error = ref('')
 
     const obtenerClima = async ({ciudad, pais}) => {
-        // Importar el Api Key
         const key = import.meta.env.VITE_API_KEY
         cargando.value = true
         clima.value = {}
